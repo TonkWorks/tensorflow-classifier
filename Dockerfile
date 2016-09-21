@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:latest-gpu
+FROM tensorflow/tensorflow:0.10.0-gpu
 
 MAINTAINER Kevin Dagostino "kevin@tonkworks.com"
 

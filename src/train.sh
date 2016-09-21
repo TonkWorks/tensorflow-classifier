@@ -1,4 +1,4 @@
-python tensorflow/examples/image_retraining/retrain.py \
+python example/retrain.py \
 --bottleneck_dir=/tf_files/bottlenecks \
 --how_many_training_steps 4000 \
 --model_dir=/tf_files/inception \

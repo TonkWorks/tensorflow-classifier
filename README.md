@@ -10,24 +10,24 @@ You just need to make a "classifier" directory with a directory "data" inside it
 For example a "classifier" named test.
 
 ```
- test/
- test/data
- test/data/car
- test/data/moto
- test/data/bus
+/var/test/
+/var/test/data
+/var/test/data/car
+/var/test/data/moto
+/var/test/data/bus
  
 ```
 
 ##Train process
  ```
- ./train.sh test
+ ./train.sh /var/test
 ``` 
 And it will do anything for you !
 
 ##Classify process
 
 ```
- ./classify.sh test /img_to_classify.jpg
+ ./classify.sh /var/test /img_to_classify.jpg
 ```
 
 ## Example of result
