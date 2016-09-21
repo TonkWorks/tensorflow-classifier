@@ -1,0 +1,1 @@
+nvidia-docker run --rm -v $1:/tf_files -v $2:/img/guess.jpg:z tonkworks/classifier sh -c ./guess.sh
